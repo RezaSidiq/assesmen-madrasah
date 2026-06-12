@@ -40,6 +40,7 @@ function showHelp() {
    node updateNilai.js --list-kelas
    node updateNilai.js --list-mapel
    node updateNilai.js --help
+
 💾 BACKUP & RESTORE:
    node updateNilai.js --backup json [--output file.json}              # Backup ke JSON
    node updateNilai.js --backup sqlite [--output file.db]             # Backup ke SQLite
@@ -48,6 +49,10 @@ function showHelp() {
       node updateNilai.js --backup json
       node updateNilai.js --backup sqlite 
       node updateNilai.js --restore --file backup_20250101.json
+
+📋 FORMAT CSV UNTUK UPDATE NILAI:
+   nisn;mapel;update   
+   0123456789;Fikih;8.9   # desimal dengan titik
 
 📋 FORMAT CSV UNTUK SISWA:
    nisn;nama;kelas;jk;ttl
