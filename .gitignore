@@ -42,3 +42,4 @@ Thumbs.db
 
 # Export files (opsional - jika tidak ingin commit hasil export)
 *.csv
+.~lock*
